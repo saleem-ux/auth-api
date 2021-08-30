@@ -6,9 +6,9 @@ const foodModel = require('./food/model.js');
 const userModel = require('./users.js');
 const Collection = require('./data-collection.js');
 
-const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite:memory:' : 'postgres://vwemkgfp:eSpjjvnj3aEyuhrjsJdGANJZq78bgpB8@chunee.db.elephantsql.com/vwemkgfp';
+const DATABASE_URL = 'postgres://vwemkgfp:eSpjjvnj3aEyuhrjsJdGANJZq78bgpB8@chunee.db.elephantsql.com/vwemkgfp';
 
-const DATABASE_CONFIG = process.env.NODE_ENV === 'production' ? {
+const DATABASE_CONFIG = 'postgres://vwemkgfp:eSpjjvnj3aEyuhrjsJdGANJZq78bgpB8@chunee.db.elephantsql.com/vwemkgfp' === 'production' ? {
   dialectOptions: {
     ssl: true,
     rejectUnauthorized: false,
