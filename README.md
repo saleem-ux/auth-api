@@ -4,13 +4,13 @@
 
 ## Links and Resources:
  ### Heroku:
-
+[Heroku](https://authser.herokuapp.com/)
 
 * ### Github Actions:
-
+[actions](https://github.com/saleem-ux/auth-api/actions)
 
 * ### pull request :
-
+[PR](https://github.com/saleem-ux/auth-api/pull/1)
 
 
 ## Dependencies needs to install
